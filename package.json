@@ -4,11 +4,13 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "vite"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "typescript": "^4.5.4"
+    "typescript": "^4.5.4",
+    "vite": "^2.7.13"
   }
 }
