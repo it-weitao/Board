@@ -1,5 +1,5 @@
-import { defineConfig } from 'vite'
-const path = require('path');
+import { defineConfig } from "vite";
+import path from "path";
 
 function resolve(dir: string) {
   return path.join(__dirname, dir);
@@ -11,7 +11,7 @@ export default defineConfig({
   },
   resolve: {
     alias: {
-      '@': resolve('./src'),
-    }
-  }
-})
+      "@": resolve("./src"),
+    },
+  },
+});
