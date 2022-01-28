@@ -1,6 +1,3 @@
-class Board {
-  public domId: string;
-  constructor(domId: string) {
-    this.domId = domId
-  }
-}
+import Board from "./Board/Board.js";
+
+const board = new Board("content");
